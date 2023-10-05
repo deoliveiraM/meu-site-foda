@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora da Liberdade de Expressão</title>
+    <link rel="stylesheet" href=".css\calcstyle.css">
+    <script src=".js\calcscript.js"></script>
+</head>
+<body>
+    <a href="index.html" class="voltar">Voltar</a>
+    <h1>Calculadora da liberdade de Expressão</h1>
+    <img src="https://f.i.uol.com.br/fotografia/2022/02/09/16444253486203f084e6c66_1644425348_1x1_md.jpg" alt="">
+    <select id="operacao" name="operacao">
+        <option value="soma">Soma</option>
+        <option value="subtracao">Subtração</option>
+        <option value="multiplicacao">Multiplicação</option>
+        <option value="divisao">Divisão</option>
+    </select>
+    <input type="text" name="n1" id="n1" placeholder="Digite o primeiro valor">
+    <input type="text" name="n2" id="n2" placeholder="Digite o segundo valor">
+    <button onclick="realizarOperacao()" class="calcular">Calcular</button>
+    <p id="resultado"></p>
+</body>
+</html>
