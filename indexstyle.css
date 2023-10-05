@@ -20,5 +20,6 @@ button{
     width: 100%;
     height: auto;
     margin-top: -10px;
+    margin-right: -20;
     position: relative;
 }
