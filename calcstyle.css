@@ -1,0 +1,43 @@
+.voltar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: left;
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: x-large;
+  font-family: "Comic Sans MS";
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+select,
+input,
+button {
+  margin: 10px;
+  font-size: x-large;
+  font-family: "Comic Sans MS";
+}
+
+select,
+button,
+option {
+  cursor: pointer;
+}
+
+input {
+  cursor: text;
+}

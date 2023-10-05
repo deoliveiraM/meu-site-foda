@@ -1,0 +1,14 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Comic Sans MS';
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s;
+}

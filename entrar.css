@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Comic Sans MS'
+}
+
+h1, h2{
+font-size: 80px;
+}
+
+select, button, option{
+    margin: 20px;
+    cursor: pointer;
+}
+input{
+    cursor: text;
+}
